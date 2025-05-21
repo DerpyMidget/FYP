@@ -1,0 +1,2 @@
+myDict = {"name": "Alice", "age": 30};
+print myDict["name"];
