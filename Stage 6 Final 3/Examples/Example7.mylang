@@ -1,0 +1,19 @@
+# Create a user profile using dictionary
+define user{
+    "name": "Alex",
+    "age": 30,
+    "email": "alex@example.com"
+};
+
+# Query a value
+print user["email"];  # Should print the email
+
+#update the dictionary value
+
+ammend user["name"] to "Bob";
+print user["name"];
+
+#remove a dictionary value
+
+remove user["name"];
+print user;

@@ -1,0 +1,18 @@
+This document explains how to build and run the custom interpreter project.
+
+## Requirements
+
+- Python 3.8 or later
+- No external dependencies required
+
+## Build Instructions
+
+1. Clone or copy all source files into a local directory.
+
+2. Run the interpreter using:
+
+    python main_stage6.py <your_program.mylang>
+
+Example:
+
+    python main_stage6.py examples/example1.mylang

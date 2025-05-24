@@ -1,0 +1,17 @@
+#This example shows the use of variables and text storage, as well as adding text to strings
+
+quickMaths = 10;
+quickMaths = quickMaths + 2;
+print quickMaths;
+
+floatTest = 1.0;
+floatTest = floatTest + 5;
+print floatTest;
+
+stringCatTest = "10 corgis";
+stringCatTest = stringCatTest + 5 + "more corgis";
+print stringCatTest;
+
+#errorTest = 5;
+#errorTest = errorTest + "string";
+#print errorTest;

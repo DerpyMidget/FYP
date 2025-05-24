@@ -1,0 +1,13 @@
+#This example demonstrates global and local variables, while loops and nested if statements as well as flow logic
+
+is_running = true;
+
+shopping_list = "";
+while (is_running == true){
+    item = input("add an item to the shopping list: ");
+    if(item == ""){
+        is_running = false;
+    }
+    shopping_list = shopping_list + "," + item;
+}
+print shopping_list;

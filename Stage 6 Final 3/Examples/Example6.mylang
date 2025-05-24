@@ -1,0 +1,25 @@
+#The following example shows how the lists are used and accessed 
+
+#creating the lists
+shopping = [];
+#added items to list
+shopping = shopping + ["milk"];
+shopping = shopping + ["eggs"];
+shopping = shopping + ["cheese"];
+
+#access an item
+print shopping[1];
+
+#remove an item;
+new_shopping = [];
+index = 0;
+while(index < 3 ) {
+    item = shopping[index];
+    if(item != "milk"){
+        new_shopping = new_shopping + [item];
+    }
+    index = index + 1;
+}
+shopping = new_shopping;
+
+print shopping;

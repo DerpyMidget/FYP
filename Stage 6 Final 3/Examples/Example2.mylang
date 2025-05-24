@@ -1,0 +1,9 @@
+#This file is showing some boolean logic, comparis equality and inequalty
+
+print true == false; 
+print true != false;
+print (5 < 10);
+print true and true;
+print false and true;
+print (0 < 1 ) or false;
+print false or false;

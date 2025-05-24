@@ -1,0 +1,10 @@
+name = "Global Sam";
+
+function greet() {
+    name = "Local Sam";  # Local only
+    print "Inside function: " + name;
+}
+
+greet();
+
+print "Outside function: " + name;  # Should still print: Global Sam

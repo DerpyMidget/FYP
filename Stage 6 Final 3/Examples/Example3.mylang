@@ -1,0 +1,8 @@
+#This example is showing how the langaunge handles string concatination
+
+print "hello" + " " + "world";
+print "foo" + "bar" == "foobar";
+print "10 corgis" != "10" + "corgis"; 
+
+print 1 + "0";
+print false == "false";
